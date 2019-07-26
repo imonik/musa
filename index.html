@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Musas's Cave</title>
     <link
@@ -11,22 +11,108 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" />
   </head>
-  <body>
-    <header class="mt-3">
-      <nav>
-        <ul class="nav justify-content-end">
+  <body style="background: #FCEDED">
+    <header>
+      <div class="container-fluid" style="background:#F0A8A6; height: 300px;">
+        <img
+          src="./assets/images/muses_caves_FINAL.png"
+          width="400px"
+          style="
+        margin-top: -59px;
+    "
+        />
+        <p
+          class="float-right"
+          style="
+    margin-right: 200px;
+    margin-top: 100px;
+    color: white;
+    font-size: 40px;
+    font-style: oblique;
+"
+        >
+          lorem ipsum dolor sit amet ...
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-md " style="background: #4C82DE">
+        <div class="container" aria-setsize="color:white">
+          <!-- <a class="navbar-brand" href="#">Responsive Website</a> -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact</a>
+              </li>
+            </ul> -->
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item mr-2">
+                <a class="nav-link" style="color: white" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" href="">About Us</a>
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" style="color: white" href="gallery.html"
+                  >Gallery</a
+                >
+              </li>
+              <li class="nav-item mr-2">
+                <a
+                  class="nav-link"
+                  style="color: rgb(252, 224, 224)"
+                  href="calendar.html"
+                  >Events</a
+                >
+              </li>
+              <li class="nav-item mr-2">
+                <a
+                  class="nav-link"
+                  class="nav-link"
+                  style="color: white"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+              <!-- <li class="nav-item"><a class="nav-link" href="#">Login</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <ul>
           <li class="nav-item mr-2"><a href="index.html">Home</a></li>
           <li class="nav-item mr-2"><a href=""></a>About Us</a></li>
           <li class="nav-item mr-2"><a href="gallery.html">Gallery</a></li>
           <li class="nav-item mr-2"><a href="calendar.html">Events</a></li>
           <li class="nav-item mr-2"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        </ul> -->
     </header>
-    <main>
-      <article class="container">
-        <section class="mt-5">
+    <main class=" container mt-2 ">
+      <article>
+        <section>
           <div
             id="carouselExampleControls"
             class="carousel slide"
@@ -82,10 +168,12 @@
           </div>
         </section>
         <section class="mt-5 row">
-          <h1>About Us</h1>
-          <div class="w-100 border border-secondary mb-5"></div>
+          <h1 style="
+          color: #DC1470;
+      ">About Us</h1>
+          <div class="w-100  mb-5" style="border-bottom: 4px solid   #DC1470;"></div>
           <div>
-            <p class="float-left col-8">
+            <p class="float-left col-8" style="color: gray">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum eros diam, porta sed nulla quis, lobortis lobortis
               erat. Mauris rutrum iaculis tortor, eget porta libero placerat et.
@@ -119,7 +207,7 @@
         </section>
       </article>
     </main>
-    <footer>
+    <footer style="background: #4C82DE; height: 80px;">
       <div><img /></div>
       <p class="text-justify text-center">
         Musa's cave all rigths reserved 2019 &copy;
