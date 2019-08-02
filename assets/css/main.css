@@ -11,7 +11,7 @@ main {
 
 nav {
   /* background: #ff8b8b; */
-  background: #c60035;
+  background: #e3587b;
 }
 
 nav a {
@@ -23,13 +23,14 @@ nav a {
 .active,
 a:hover {
   /* background-color: #e9a8a1; */
-  color: #e9a8a1;
+  color: whitesmoke;
   font-weight: bold;
   text-shadow: 1px 1px #6b0003;
 }
 
 #headerbackground {
   background: #e3587b;
+  background-image: linear-gradient(#e3587b, white);
   /* #fcc; */
   height: 548px;
 }
