@@ -1,5 +1,7 @@
 html,
 body {
+  padding: 0;
+  margin: 0;
   height: 100%;
 }
 
@@ -8,12 +10,22 @@ main {
 }
 
 nav {
-  background: #ff8b8b;
+  /* background: #ff8b8b; */
+  background: #e9635e;
 }
 
 nav a {
   color: white;
+  /* font-weight: bold; */
+  font-family: "Rubik", sans-serif;
+}
+
+.active,
+a:hover {
+  /* background-color: #e9a8a1; */
+  color: #e9a8a1;
   font-weight: bold;
+  text-shadow: 1px 1px #6b0003;
 }
 
 #headerbackground {
@@ -39,17 +51,22 @@ nav a {
 }
 
 h1 {
-  color: #dc1470;
-  font-family: "Bad Script", cursive;
-  font-weight: bold;
+  /* color: //#dc1470; */
+  color: #dfd9d4;
+  color: black;
+  /* font-family: "Bad Script", cursive; */
+  font-family: "Satisfy", cursive;
+
+  /* font-weight: bold; */
 }
 
 .bottom-border {
-  border-bottom: 4px solid #dc1470;
+  /* border-bottom: 4px solid #dc1470; */
+  border-bottom: 4px solid #dfd9d4;
 }
 .paragraph {
   color: gray;
-  font-family: "Raleway", "sans-serif";
+  font-family: "Rubik", sans-serif;
 }
 
 iframe {
@@ -61,12 +78,14 @@ iframe {
 }
 
 footer {
-  background: #fcc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #6b0003;
   height: 80px;
   color: white;
-  font-weight: bold;
-  border-top: #ff8b8b solid 4px;
+  border-top: #e9635e solid 4px;
   width: 100%;
-  padding-bottom: 0px;
-  clear: both;
+  font-family: "Rubik", sans-serif;
 }
