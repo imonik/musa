@@ -11,7 +11,7 @@ main {
 
 nav {
   /* background: #ff8b8b; */
-  background: #e9635e;
+  background: #c60035;
 }
 
 nav a {
@@ -29,7 +29,8 @@ a:hover {
 }
 
 #headerbackground {
-  background: #fcc;
+  background: #e3587b;
+  /* #fcc; */
   height: 548px;
 }
 
@@ -42,12 +43,20 @@ a:hover {
   margin-top: 100px;
   color: white;
   font-size: 40px;
-  font-style: oblique;
+  font-family: "Satisfy", cursive;
+  font-weight: lighter;
 }
 
 #sectionId {
   top: -300px;
   margin-top: -200px;
+}
+
+.polaroid {
+  border: 1px solid #777;
+  padding: 8px;
+  box-sizing: border-box;
+  background: floralwhite;
 }
 
 h1 {
@@ -85,7 +94,8 @@ footer {
   background: #6b0003;
   height: 80px;
   color: white;
-  border-top: #e9635e solid 4px;
+  border-top: #c60035 solid 2px;
   width: 100%;
   font-family: "Rubik", sans-serif;
+  font-size: x-small;
 }
