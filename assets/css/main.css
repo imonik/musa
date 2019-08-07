@@ -5,9 +5,12 @@ body {
   height: 100%;
 }
 
-main {
+/* main {
+  min-height: 100%;
   height: 100%;
-}
+  padding-bottom: 100px;
+  margin: 0 auto -155px;
+} */
 
 nav {
   /* background: #ff8b8b; */
@@ -32,20 +35,24 @@ a:hover {
   background: #e3587b;
   background-image: linear-gradient(#e3587b, white);
   /* #fcc; */
-  height: 548px;
-}
-
-#headerbackground img {
-  margin-top: -59px;
+  height: 380px;
 }
 
 #headerbackground p {
-  margin-right: 200px;
-  margin-top: 100px;
+  margin-right: 40px;
+  text-align: center;
+  margin-top: 50px;
   color: white;
   font-size: 40px;
   font-family: "Satisfy", cursive;
-  font-weight: lighter;
+  font-weight: normal;
+  text-shadow: 1px 1px lightgrey;
+}
+.front-logo {
+  position: absolute;
+  left: 20px;
+  top: -50px;
+  z-index: 3;
 }
 
 #sectionId {
@@ -54,7 +61,7 @@ a:hover {
 }
 
 .polaroid {
-  border: 1px solid #777;
+  /* border: 1px solid #777; */
   padding: 8px;
   box-sizing: border-box;
   background: floralwhite;
@@ -62,7 +69,7 @@ a:hover {
 
 h1 {
   /* color: //#dc1470; */
-  color: #dfd9d4;
+  /* color: #dfd9d4; */
   color: black;
   /* font-family: "Bad Script", cursive; */
   font-family: "Satisfy", cursive;
@@ -81,17 +88,13 @@ h1 {
 
 iframe {
   border-width: 0;
-  width: 1280px;
+  width: 1000px;
   height: 500px;
   /* frameborder: 0;
   scrolling: no; */
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.footer {
   background: #6b0003;
   height: 80px;
   color: white;
@@ -99,4 +102,6 @@ footer {
   width: 100%;
   font-family: "Rubik", sans-serif;
   font-size: x-small;
+  height: 80px;
+  position: absolute;
 }
