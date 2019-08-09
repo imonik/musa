@@ -45,14 +45,14 @@ a:hover {
   font-weight: normal;
   text-shadow: 1px 1px lightgrey;
 }
-.front-logo {
+/* .front-logo {
   position: absolute;
   left: 20px;
   top: -50px;
   z-index: 3;
-}
+} */
 .polaroid {
-  /* border: 1px solid #777; */
+  border: 1px solid #777;
   padding: 8px;
   box-sizing: border-box;
   background: floralwhite;
