@@ -36,7 +36,7 @@ a:hover {
 }
 
 #headerbackground p {
-  margin-right: 40px;
+  /* margin-right: 40px; */
   text-align: center;
   margin-top: 50px;
   color: white;
@@ -52,7 +52,7 @@ a:hover {
   z-index: 3;
 } */
 .polaroid {
-  border: 1px solid #777;
+  /* border: 1px solid #777; */
   padding: 8px;
   box-sizing: border-box;
   background: floralwhite;
@@ -61,7 +61,7 @@ a:hover {
 h1 {
   /* color: //#dc1470; */
   /* color: #dfd9d4; */
-  color: black;
+  color: darkslategray;
   /* font-family: "Bad Script", cursive; */
   font-family: "Satisfy", cursive;
 
@@ -87,8 +87,6 @@ h1 {
   transition: 0.5s ease;
   border-radius: 50%;
   background-color: lightpink;
-  width: 350px;
-  height: 350px;
 }
 
 .container-image:hover .overlay {
@@ -110,7 +108,7 @@ h1 {
 iframe {
   border-width: 0;
   /* width: 1000px; */
-  height: 500px;
+  height: 1000px;
   /* frameborder: 0;
   scrolling: no; */
 }
